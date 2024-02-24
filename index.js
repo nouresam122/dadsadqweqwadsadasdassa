@@ -2,7 +2,7 @@ const express = require("express");
 const keep_alive = require("./keep_alive.js");
 const app = express();
 
-app.listen(() => console.log("youssefgames bot come"));
+app.listen(() => console.log("Elite S"));
 require('events').EventEmitter.defaultMaxListeners = 30;
 app.use('/ping', (req, res) => {
   res.send(new Date());
